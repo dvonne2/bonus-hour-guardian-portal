@@ -5,7 +5,7 @@
     { "source": "/inventory/:path*", "destination": "/inventory/:path*" },
     { "source": "/telesales/:path*", "destination": "/telesales/:path*" },
     { "source": "/delivery/:path*", "destination": "/delivery/:path*" },
-    { "source": "/shield/:path*", "destination": "/shield/:path*" },
+    { "source": "/kyc/:path*", "destination": "/kyc/:path*" },
     { "source": "/telesales-95/:path*", "destination": "/telesales-95/:path*" },
     { "source": "/accountability/:path*", "destination": "/accountability/:path*" },
     { "source": "/command-center/:path*", "destination": "/command-center/:path*" }
