@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/kyc/:path*",
+      "destination": "https://vitalvida-kyc.vercel.app/:path*"
+    },
+    {
+      "source": "/inventory/:path*",
+      "destination": "https://vitalvida-inventory-command-35.vercel.app/:path*"
+    },
+    {
+      "source": "/telesales/:path*",
+      "destination": "https://vitalvida-telesales-dashboard.vercel.app/:path*"
+    },
+    {
+      "source": "/delivery/:path*",
+      "destination": "https://vitalvida-delivery-pulse.vercel.app/:path*"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://vitalvida-command-center-elite.vercel.app/:path*"
+    },
+    {
+      "source": "/investor/:path*",
+      "destination": "https://vitalvida-investor-cockpit.vercel.app/:path*"
+    }
+  ]
+}
