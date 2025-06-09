@@ -1,28 +1,34 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/kyc/:path*",
-      "destination": "https://vitalvida-kyc.vercel.app/:path*"
+      "destination": "https://vitalvida-kyc.vercel.app/:path*",
+      "permanent": false
     },
     {
       "source": "/inventory/:path*",
-      "destination": "https://vitalvida-inventory-command-35.vercel.app/:path*"
+      "destination": "https://vitalvida-inventory-command-35.vercel.app/:path*",
+      "permanent": false
     },
     {
       "source": "/telesales/:path*",
-      "destination": "https://vitalvida-telesales-dashboard.vercel.app/:path*"
+      "destination": "https://vitalvida-telesales-dashboard.vercel.app/:path*",
+      "permanent": false
     },
     {
       "source": "/delivery/:path*",
-      "destination": "https://vitalvida-delivery-pulse.vercel.app/:path*"
+      "destination": "https://vitalvida-delivery-pulse.vercel.app/:path*",
+      "permanent": false
     },
     {
       "source": "/admin/:path*",
-      "destination": "https://vitalvida-command-center-elite.vercel.app/:path*"
+      "destination": "https://vitalvida-command-center-elite.vercel.app/:path*",
+      "permanent": false
     },
     {
       "source": "/investor/:path*",
-      "destination": "https://vitalvida-investor-cockpit.vercel.app/:path*"
+      "destination": "https://vitalvida-investor-cockpit.vercel.app/:path*",
+      "permanent": false
     }
   ]
 }
