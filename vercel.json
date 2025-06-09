@@ -8,6 +8,6 @@
     { "source": "/kyc/:path*", "destination": "/kyc/:path*" },
     { "source": "/telesales-95/:path*", "destination": "/telesales-95/:path*" },
     { "source": "/accountability/:path*", "destination": "/accountability/:path*" },
-    { "source": "/finance/:path*", "destination": "/command-center/:path*" }
+    { "source": "/finance/:path*", "destination": "/finance/:path*" }
   ]
 }
