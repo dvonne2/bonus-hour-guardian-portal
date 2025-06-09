@@ -1,6 +1,9 @@
 {
+  "buildCommand": "npm run build --workspaces",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
   "rewrites": [
-    { "source": "/", "destination": "/home" },
+    { "source": "/", "destination": "/home/index.html" },
     { "source": "/investor/:path*", "destination": "/investor/:path*" },
     { "source": "/inventory/:path*", "destination": "/inventory/:path*" },
     { "source": "/telesales/:path*", "destination": "/telesales/:path*" },
