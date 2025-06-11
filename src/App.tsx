@@ -36,6 +36,7 @@ const App = () => (
             <Route path="/command-center/*" element={<IframeWrapper src="https://vitalvida-command-center-elite.vercel.app" />} />
             <Route path="/investor/*" element={<IframeWrapper src="https://vitalvida-investor-cockpit.vercel.app" />} />
             <Route path="/ceo/*" element={<IframeWrapper src="https://vitalvida-ceo-center-africa.vercel.app" />} />
+            <Route path="/accountant/*" element={<IframeWrapper src="https://vita-accountant-control-hub.vercel.app/" />} />
             {/* Keep your existing 404 route at the end */}
             <Route path="*" element={<NotFound />} />
           </Routes>
